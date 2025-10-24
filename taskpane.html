@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>問い合わせ管理</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="taskpane.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2>📋 問い合わせ管理</h2>
+    <label for="assignee">担当者：</label>
+    <select id="assignee">
+      <option value="">選択してください</option>
+      <option value="佐々木">佐々木</option>
+      <option value="伊藤">伊藤</option>
+      <option value="乗田">乗田</option>
+      <option value="千葉">千葉</option>
+    </select>
+    <label for="status">ステータス：</label>
+    <select id="status">
+      <option value="未対応">未対応</option>
+      <option value="対応中">対応中</option>
+      <option value="完了">完了</option>
+    </select>
+    <label for="notes">メモ：</label>
+    <textarea id="notes" rows="4" placeholder="メモを入力..."></textarea>
+    <button id="saveBtn">💾 保存</button>
+    <p id="result" class="info"></p>
+  </div>
+</body>
+</html>

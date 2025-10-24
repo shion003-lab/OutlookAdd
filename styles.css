@@ -1,0 +1,41 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 16px;
+  background-color: #f8f9fa;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h2 {
+  font-size: 18px;
+  color: #0078d7;
+  margin-bottom: 10px;
+}
+label {
+  font-weight: bold;
+  margin-top: 8px;
+}
+select, textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #0078d7;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #005ea6;
+}
+.info {
+  color: #444;
+  font-size: 12px;
+  margin-top: 8px;
+}
