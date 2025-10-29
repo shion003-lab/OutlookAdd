@@ -3,7 +3,13 @@
     "/taskpane.html": {
       "headers": {
         "X-Frame-Options": "",
-        "Content-Security-Policy": "frame-ancestors 'self' https://outlook.office.com https://outlook.office365.com;"
+        "Content-Security-Policy": "frame-ancestors 'self' https://outlook.office.com https://outlook.office365.com https://outlook.live.com;"
+      }
+    },
+    "/": {
+      "headers": {
+        "X-Frame-Options": "",
+        "Content-Security-Policy": "frame-ancestors 'self' https://outlook.office.com https://outlook.office365.com https://outlook.live.com;"
       }
     }
   }
