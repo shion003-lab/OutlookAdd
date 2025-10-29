@@ -1,0 +1,10 @@
+{
+  "responseOverrides": {
+    "/taskpane.html": {
+      "headers": {
+        "X-Frame-Options": "",
+        "Content-Security-Policy": "frame-ancestors 'self' https://outlook.office.com https://outlook.office365.com;"
+      }
+    }
+  }
+}
